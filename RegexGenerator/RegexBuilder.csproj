@@ -4,6 +4,17 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
+	
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>AsadoDevCulture</Authors>
+    <Company />
+    <Product />
+    <Description>A Regex Builder Helper</Description>
+    <PackageProjectUrl>https://github.com/javitolin/RegexBuilder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/javitolin/RegexBuilder</RepositoryUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	
   </PropertyGroup>
 
 </Project>
