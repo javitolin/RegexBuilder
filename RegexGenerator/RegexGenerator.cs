@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace RegexGenerator
+namespace SimpleRegexBuilder
 {
     public static class RegexGenerator
     {

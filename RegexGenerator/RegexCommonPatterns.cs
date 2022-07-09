@@ -1,4 +1,4 @@
-﻿namespace RegexGenerator
+﻿namespace SimpleRegexBuilder
 {
     public static class RegexCommonPatterns
     {

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6</TargetFramework>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RegexGenerator\RegexBuilder.csproj" />
+    <ProjectReference Include="..\RegexGenerator\SimpleRegexBuilder.csproj" />
   </ItemGroup>
 
 </Project>

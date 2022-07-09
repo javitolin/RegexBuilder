@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RegexGenerator
+namespace SimpleRegexBuilder
 {
     public static class Times
     {

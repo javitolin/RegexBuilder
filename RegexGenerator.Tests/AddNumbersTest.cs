@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace RegexGenerator.Tests
+namespace SimpleRegexBuilder.Tests
 {
     [TestClass()]
     public class AddNumbersTest
