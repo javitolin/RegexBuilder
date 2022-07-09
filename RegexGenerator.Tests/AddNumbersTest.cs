@@ -9,7 +9,7 @@ namespace RegexGenerator.Tests
         public void AddNumbersTest_OneNumber_AssertsTrue()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddNumbers(Times.Once);
+            regexBuilder = regexBuilder.AddAnyNumber(Times.Once);
 
             var regex = regexBuilder.ToRegex();
 
@@ -20,7 +20,7 @@ namespace RegexGenerator.Tests
         public void AddNumbersTest_OneNumberGiveLetter_AssertsFalse()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddNumbers(Times.Once);
+            regexBuilder = regexBuilder.AddAnyNumber(Times.Once);
 
             var regex = regexBuilder.ToRegex();
 
@@ -31,7 +31,7 @@ namespace RegexGenerator.Tests
         public void AddNumbersTest_ExtactlyThreeNumber_AssertsTrue()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddNumbers(Times.Exactly(3));
+            regexBuilder = regexBuilder.AddAnyNumber(Times.Exactly(3));
 
             var regex = regexBuilder.ToRegex();
 

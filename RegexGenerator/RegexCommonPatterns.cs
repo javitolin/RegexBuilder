@@ -12,9 +12,9 @@
             RegexBuilder builder = new RegexBuilder();
 
             builder.AddAnyWordCharacter(Times.AtLeastOnce, new[] { "." })
-                .AddLiteral("@", Times.Once)
+                .AddVerb("@", Times.Once)
                 .AddAnyWordCharacter(Times.AtLeastOnce)
-                .AddLiteral(".")
+                .AddVerb(".")
                 .AddAnyWordCharacter(Times.AtLeast(2));
 
             return builder.ToString();

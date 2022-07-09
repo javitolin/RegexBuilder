@@ -9,7 +9,7 @@ namespace RegexGenerator.Tests
         public void LiteralTest_OneWord_AssertsTrue()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddLiteral("Hello");
+            regexBuilder = regexBuilder.AddVerb("Hello");
 
             var regex = regexBuilder.ToRegex();
 
@@ -20,7 +20,7 @@ namespace RegexGenerator.Tests
         public void LiteralTest_OneLetter_AssertsTrue()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddLiteral("H");
+            regexBuilder = regexBuilder.AddVerb("H");
 
             var regex = regexBuilder.ToRegex();
 
@@ -31,7 +31,7 @@ namespace RegexGenerator.Tests
         public void LiteralTest_OneWordTwiceOnceGiven_AssertsFalse()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddLiteral("Hello", Times.Exactly(2));
+            regexBuilder = regexBuilder.AddVerb("Hello", Times.Exactly(2));
 
             var regex = regexBuilder.ToRegex();
 
@@ -42,7 +42,7 @@ namespace RegexGenerator.Tests
         public void LiteralTest_OneWordTwiceTwiceGiven_AssertsTrue()
         {
             RegexBuilder regexBuilder = new RegexBuilder();
-            regexBuilder = regexBuilder.AddLiteral("Hello", Times.Exactly(2));
+            regexBuilder = regexBuilder.AddVerb("Hello", Times.Exactly(2));
 
             var regex = regexBuilder.ToRegex();
 
