@@ -1,6 +1,6 @@
 # RegexBuilder
 > An utility tool for generating Regex patterns using code (RaC - Regex as Code)
-[![Build status](https://dev.azure.com/asadodevculture/MongoConfiguration/_apis/build/status/RegexBuilder-Build)](https://dev.azure.com/asadodevculture/MongoConfiguration/_build/latest?definitionId=3)
+[![Build Status](https://dev.azure.com/asadodevculture/AsadoDevCultureProjects/_apis/build/status/RegexBuilder-Build?branchName=main)](https://dev.azure.com/asadodevculture/AsadoDevCultureProjects/_build/latest?definitionId=3&branchName=main)
 
 
 
