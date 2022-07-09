@@ -193,8 +193,7 @@ namespace RegexGenerator
         /// <returns>A <see cref="RegexBuilder"/> object with the new constrains</returns>
         public static RegexBuilder AddAnyNumber(this RegexBuilder generatedRegex, string numberOfTimes = Times.Once, IEnumerable<string>? extraCharacters = null)
         {
-            string pattern = "[0-9]";
-            List<string> characters = new[] { pattern }.ToList();
+            List<string> characters = RegexBuilder.AllNumbers.Select(n => "" + n).ToList();
             if (extraCharacters != null)
             {
                 characters.AddRange(extraCharacters);
