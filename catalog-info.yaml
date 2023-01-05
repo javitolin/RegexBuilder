@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: RegexGenerator
+  description: A regex generator
+spec:
+  type: C# Software
+  lifecycle: production
+  owner: javitolin
