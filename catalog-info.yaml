@@ -4,6 +4,6 @@ metadata:
   name: RegexGenerator
   description: A regex generator
 spec:
-  type: C# Software
+  type: service
   lifecycle: production
   owner: javitolin
